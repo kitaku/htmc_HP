@@ -9,8 +9,19 @@
 	color: #fff;
 	font-size: 30px;
 } */
+.ui.large.image{
+	margin: 80px 0px;
+}
 
+.ui.center.aligned.container{
+	margin-bottom: 20px;
+}
+.ui.vertical.stripe.segment h1{
+	margin-bottom: 10px;
+	display: inline-block;
+	border-bottom: 5px solid #3498db;
+}
 
-.ui .container a.home-icon{
-	padding-top: 12px;
+.cercle-item{
+	margin:30px;
 }
