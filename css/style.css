@@ -9,6 +9,9 @@
 	color: #fff;
 	font-size: 30px;
 } */
+p{
+	font-size: 18px;
+}
 .ui.inverted.secondary.borderless.fixed.pointing.menu{
 	background-color: darkcyan;
 }
@@ -25,6 +28,9 @@
 	margin-bottom: 20px;
 	display: inline-block;
 	border-bottom: 5px solid #58b368
+}
+.card-list{
+	padding: 0px 100px;
 }
 .cercle-item{
 	margin:30px;
