@@ -15,6 +15,18 @@ p{
 .ui.inverted.secondary.borderless.fixed.pointing.menu{
 	background-color: darkcyan;
 }
+.modProductNav ul{
+	list-style: none;
+}
+.modProductNav a{
+	font-size: 28px;
+	/* text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden; */
+	visibility: hidden;
+	/* position: fixed; */
+	border-bottom: 10px solid #58b368;
+}
 .ui.large.image{
 	margin: 80px 0px;
 }
@@ -38,14 +50,17 @@ p{
 .sns-comment{
 	margin-top: 50px;
 }
-.twitter.huge.icon{
+.twitter.icon{
 	color:#55acee;
 }
-.instagram.huge.icon{
+.instagram.icon{
 	color: #E1306C;
 }
-.youtube.huge.icon{
+.youtube.icon{
 	color: #cd201f;
+}
+.facebook.icon{
+	color: #3b5998;
 }
 .ui.inverted.vertical.footer.segment{
 	background-color: #454d66;
