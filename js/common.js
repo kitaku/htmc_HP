@@ -30,5 +30,12 @@ $(function(){
   $('#ob-og').click(function(){
     $('.ob-og').modal('show');
   });
-
 })
+
+// $(function(){
+//   $('.tab_btn').on('click',function(){
+//     $('.tab_item').removeClass("is_active_item");
+//     // $($(this).attr("href")).addClass("is_active_item");
+//     $($(this).attr("href")).addClass("is_active_item";
+//   })
+// })
