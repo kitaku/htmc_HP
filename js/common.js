@@ -38,9 +38,9 @@ $(function(){
 
   });
 
-  
-
-  $('.ui.labeled.icon.sidebar').sidebar('toggle');
+  $('.sidebar.icon').on('click', function(){
+    $('.ui.labeled.icon.sidebar').sidebar('toggle');
+  });
 
   // var tag = document.createElement('script');
   // tag.src = "http://www.youtube.com/iframe_api";

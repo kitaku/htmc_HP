@@ -75,11 +75,20 @@ p{
 	.card-list{
 		padding: 0px 50px;
 	}
+	/* .ui.link.cards.card{
+		width: 100px;
+	} */
 	.options iframe{
 		width: 100%;
 	}
 	.google-map iframe{
 		width: 100%;
+	}
+	#nonside{
+		display: none;
+	}
+	#side{
+		display: block;
 	}
 
 }
@@ -93,6 +102,12 @@ p{
 	.google-map iframe{
 		width: 100%;
 	}
+	#nonside{
+		display: none;
+	}
+	#side{
+		display: block;
+	}
 }
 @media screen and (min-width:480px) and (max-width:621px){
 	.card-list{
@@ -104,29 +119,57 @@ p{
 	.google-map iframe{
 		width: 100%;
 	}
+	#nonside{
+		display: none;
+	}
+	#side{
+		display: block;
+	}
+}
+@media screen and (min-width : 621px) and (max-width:768px) {
+	.card-list{
+		padding: 0px 30px;
+	}
+	#nonside{
+		display: none;
+	}
+	#side{
+		display: block;
+	}
 }
 @media screen and (min-width : 768px) and (max-width : 992px) {
 	.card-list{
 		padding: 0px 64px;
 	}
-	#nonslide{
+	#nonside{
 		display: none;
 	}
-
+	#side{
+		display: block;
+	}
 }
 
 @media screen and (min-width : 992px) and (max-width:1024px){
 	.card-list{
 		padding: 0px 64px;
 	}
+	#side{
+		display: none;
+	}
 }
 @media screen and (min-width:1024px) and (max-width:1200px){
 	.card-list{
 		padding: 0px 10px;
 	}
+	#side{
+		display: none;
+	}
 }
 @media screen and (min-width:1200px) {
 	.card-list{
 		padding: 0px 100px;
+	}
+	#side{
+		display: none;
 	}
 }
